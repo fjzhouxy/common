@@ -16,7 +16,7 @@ public class SftpInfo {
     private String password;
     /** FTP 服务器地址IP地址*/  
     private String host;
-    /** FTP 服务器商品*/  
+    /** FTP 服务器端口*/  
     private int port;
 	public String getUsername() {
 		return username;
