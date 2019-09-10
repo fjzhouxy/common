@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wqjb</groupId>
+  <artifactId>sftp</artifactId>
+  <version>0.1.54</version>
+  
+    <properties>
+  	<spring.versions>4.3.10.RELEASE</spring.versions>
+  	<hibernate.version>4.3.11.Final</hibernate.version>
+  	<!-- 新版1.8.X   1.8.0-alpha0  不能使用logback -->
+  	<slf4j.version>1.7.25</slf4j.version>
+  	<logback.version>1.2.3</logback.version>
+  	<jackson.version>2.9.4</jackson.version>
+  </properties>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.yaml</groupId>
+		<artifactId>snakeyaml</artifactId>
+		<version>1.17</version>
+	</dependency>
+	<dependency>
+		<groupId>com.jcraft</groupId>
+		<artifactId>jsch</artifactId>
+		<version>0.1.55</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>commons-net</groupId>
+	    <artifactId>commons-net</artifactId>
+	    <version>3.6</version>
+	</dependency>
+
+	<dependency>
+	<groupId>ch.qos.logback</groupId>
+	<artifactId>logback-access</artifactId>
+	<version>${logback.version}</version>
+</dependency>
+
+	<dependency>
+		<groupId>ch.qos.logback</groupId>
+		<artifactId>logback-classic</artifactId>
+		<version>${logback.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>ch.qos.logback</groupId>
+		<artifactId>logback-core</artifactId>
+		<version>${logback.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>${slf4j.version}</version>
+	</dependency>
+	<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+</dependencies>
+</project>

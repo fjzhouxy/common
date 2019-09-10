@@ -1,0 +1,9 @@
+sftp:
+  default:
+    host: 192.168.96.50
+    username: mysftp
+    password: Wq1234!@#$
+  citic:
+    host: 192.168.96.50
+    username: extsftp
+    password: extqsgyu
